@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank's Fitness Studio</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS reset */
+    body{
+        font-family: 'Baloo Bhai 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(img/Wallpaper-Chris-Bumstead.jpg);
+        background-repeat: no-repeat;
+    }
+    .left{
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+    .mid{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+    .right{
+        position: absolute;
+        top: 26px;
+        right: 22px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 16px;
+    }
+    .navbar li a:hover, .navbar li a:active m{
+        text-decoration: underline;
+        color: grey;
+    }
+    .left img{
+        width: 136px;
+    }
+    .left div{
+        text-align: center;
+        line-height: 19px;
+        font-size: 26px
+    }
+    .btn{
+        font-family: 'Baloo Bhai 2', cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: rgb(78, 82, 82);
+        padding: 3px 4px;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(164, 163, 163);
+    }
+    .container{
+        /* border: 2px solid red; */
+        margin: 162px 233px;
+        padding: 21px 21px;
+        width: 33%;
+        border-radius: 21px;
+    }
+    .form-group input{
+        font-family:'Baloo Bhai 2', cursive;;
+        text-align: center;
+        display: block;
+        width: 186px;
+        padding: 9px;
+        border: 2px solid rgb(67, 64, 64);
+        margin: 11px auto;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 50%;
+        margin: 11px auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+          <img src="img/bodybuilder-logo-template-vector-object-icons-sport-label-gym-badge-fitness-logo-design-emblem-graphics-sport-symbol-108529224.jpg" alt="">
+          <div>Mayank's Fitness Studio</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">BMI Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+        <div class="container">
+            <h1>Join the best GYM of Tundla</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email-ID">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Phone Number">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </header>
+    
+</body>
+</html>
